@@ -7,7 +7,7 @@ exports.createTask = async (req, res) => {
             title,
             description,
             status,
-            user: req.userId
+            user: req.user
         });
         await newTask.save();
         res.status(201).json(newTask);
