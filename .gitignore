@@ -17,3 +17,6 @@ docker-compose.yaml
 # IDE files
 .idea/
 .DS_Store
+
+.tfstate
+.terraform
